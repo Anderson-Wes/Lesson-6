@@ -3,10 +3,12 @@
 body {
     width: 1166px;
     margin: 21px auto 0 auto;
+    background-color: #F1F1F1;
 }
 
 .navigation {
     display: inline-block;
+    margin-bottom: 33px;
 }
 
 .navigation li {
@@ -17,9 +19,83 @@ body {
     line-height: 12.89px;
     font-weight: 700;
     text-transform: uppercase;
+    color: #000000;
 }
 
 header img {
     vertical-align: middle;
 }   
+
+h1 {
+    font-family: "Roboto", sans-serif;
+    font-size: 24px;
+    line-height: 28.13px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #000000;
+    margin-bottom: 27px;
+}
+
+.widgets {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+}
+
+.widget {
+    width: 362px;
+    height: 357px;
+    background-color: #FFFFFF;
+    border-radius: 5px;
+    display: inline-block;
+}
+
+.widget_header img {
+    position: absolute;
+}
+
+h2 {
+    position: absolute;
+    z-index: 1;
+    margin-top: 37px;
+    margin-left: 41px;
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+    line-height: 23.44px;
+    font-weight: 700;
+    color: #FFFFFF;
+    margin-left: 37px;
+}
+
+.description {
+    position: absolute;
+    bottom: 63px;
+    font-family: "Roboto", sans-serif;
+    font-size: 10px;
+    line-height: 11.72px;
+    font-weight: 700;
+    color: #8A8787;
+    margin-left: 37px;
+}
+
+.timer {
+    position: absolute;
+    bottom: 36px;
+}
+
+.timer_icon {
+    vertical-align: middle;
+    margin-right: 11px;
+    margin-left: 40px;
+}
+
+.time {
+    font-family: "Roboto", sans-serif;
+    font-size: 10px;
+    line-height: 11.72px;
+    font-weight: 700;
+    color: #8A8787;
+    display: inline-block;
+    vertical-align: middle;
+}
 
