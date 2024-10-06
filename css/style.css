@@ -6,13 +6,19 @@ body {
 
 header, main {
     width: 1166px;
-    margin: 21px auto 0 auto;
-    
+    margin: 0 auto 0 auto;   
+}
+
+.header {
+    width: 1166px;
+    position: fixed;
+    z-index: 1;
+    top: 21px;
+    margin-bottom: 42px;
 }
 
 .navigation {
     display: inline-block;
-    margin-bottom: 33px;
 }
 
 .navigation li {
@@ -42,6 +48,7 @@ h1 {
     text-transform: uppercase;
     color: #000000;
     margin-bottom: 27px;
+    margin-top: 76px;
 }
 
 .widgets {
