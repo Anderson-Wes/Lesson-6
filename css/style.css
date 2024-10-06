@@ -26,6 +26,10 @@ header img {
     vertical-align: middle;
 }   
 
+.upper_section {
+    margin-bottom: 57px;
+}
+
 h1 {
     font-family: "Roboto", sans-serif;
     font-size: 24px;
@@ -37,24 +41,24 @@ h1 {
 }
 
 .widgets {
-    position: relative;
     display: flex;
     justify-content: space-between;
 }
 
 .widget {
+    position: relative;
     width: 362px;
     height: 357px;
     background-color: #FFFFFF;
     border-radius: 5px;
-    display: inline-block;
+    /* display: inline-block; */
 }
 
 .widget_header img {
     position: absolute;
 }
 
-h2 {
+.widget_header h2 {
     position: absolute;
     z-index: 1;
     margin-top: 37px;
@@ -99,3 +103,42 @@ h2 {
     vertical-align: middle;
 }
 
+.left_widgets, .right_widgets {
+    display: inline-block;
+}
+
+.lower_widgets {
+    display: flex;
+    justify-content: space-between;
+}
+
+.left_widgets {
+    margin-bottom: 36px;
+    width: 758px;
+}
+
+.widget_with_title {
+    position: relative;
+    margin-bottom: 42px;
+}
+
+.widget_with_title h2 {
+    position: absolute;
+    top: 203px;
+    left: 278px;
+    z-index: 1;
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+    line-height: 23.44px;
+    font-weight: 700;
+    color: #FFFFFF;
+}
+
+.right_widgets img{
+    display: block;
+}
+
+.elephant {
+    margin-bottom: 95px;
+    margin-top: 95px;
+}
