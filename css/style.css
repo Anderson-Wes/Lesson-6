@@ -4,7 +4,7 @@ body {
     background-color: #F1F1F1;
 }
 
-header, main {
+header, main, .footer {
     width: 1166px;
     margin: 0 auto 0 auto;   
 }
@@ -36,10 +36,6 @@ header img {
     vertical-align: middle;
 }   
 
-.upper_section {
-    margin-bottom: 57px;
-}
-
 h1 {
     font-family: "Roboto", sans-serif;
     font-size: 24px;
@@ -51,7 +47,7 @@ h1 {
     margin-top: 76px;
 }
 
-.widgets {
+.widgets, .lower_widgets {
     display: flex;
     justify-content: space-between;
 }
@@ -78,7 +74,6 @@ h1 {
     line-height: 23.44px;
     font-weight: 700;
     color: #FFFFFF;
-    margin-left: 37px;
 }
 
 .description {
@@ -117,14 +112,8 @@ h1 {
     display: inline-block;
 }
 
-.lower_widgets {
-    display: flex;
-    justify-content: space-between;
-}
-
 .left_widgets {
     margin-bottom: 36px;
-    width: 758px;
 }
 
 .widget_with_title {
@@ -148,20 +137,20 @@ h1 {
     display: block;
 }
 
-.elephant {
+.elephant_img {
     margin-bottom: 95px;
     margin-top: 95px;
 }
 
 footer {
-    position: relative;
+    
     background-color: #243043;
     height: 200px;
 }
 
 .footer {
+    position: relative;
     width: 1166px;
-    margin: 0 auto 0 auto;
 }
 
 .left_nav, .middle_nav, .right_nav {
@@ -178,14 +167,14 @@ footer {
     font-weight: 400;
     line-height: 14.06px;
     color: #FFFFFF;
-    margin-right: 391px;
     margin-top: 58px;
 }
 
 .footer img {
-    display: inline-block;
+    position: absolute;
     vertical-align: top;
-    margin-top: 58px;
+    top: 58px;
+    right: 0;
 }
 
 .footer li {
